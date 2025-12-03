@@ -71,7 +71,7 @@ function Home() {
               <img
                 src={profilePhoto}
                 alt='Aziz Ziar'
-                className='h-64 w-60 rounded-[24px] ring-1 ring-slate-700'
+                className='h-64 w-60 rounded-full ring-1 ring-slate-700'
               />
             </div>
             <div className='mt-6 space-y-4'>
