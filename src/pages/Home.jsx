@@ -16,8 +16,7 @@ function Home() {
               Hi, I&apos;m Aziz Ziar.
             </p>
             <h1 className='text-4xl font-semibold tracking-tight text-slate-50 sm:text-5xl'>
-              I build modern, responsive websites with React, Next.js, Tailwind
-              CSS, and JavaScript.
+              I build modern, responsive websites with React, Tailwind CSS.
             </h1>
             <p className='max-w-xl text-base leading-relaxed text-slate-300'>
               I keep things clean, fast, and friendly for phones, tablets, and
@@ -64,7 +63,7 @@ function Home() {
 
         <div className='mt-12 flex-1 lg:mt-0'>
           <div className='rounded-[32px] border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-sky-500/10'>
-            <p className='text-sm font-semibold uppercase tracking-[0.3em] text-slate-400'>
+            <p className='text-sm text-center font-semibold uppercase tracking-[0.3em] text-slate-400'>
               Friendly & ready to help
             </p>
             <div className='mt-6 flex justify-center'>

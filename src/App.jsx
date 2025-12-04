@@ -29,7 +29,7 @@ function App() {
       <header className='sticky top-0 z-20 border-b border-slate-800 bg-slate-950/80 backdrop-blur'>
         <nav className='mx-auto flex max-w-5xl items-center justify-between px-4 py-3'>
           <span className='text-sm font-semibold tracking-widest text-sky-400'>
-            AZIZ.Z
+            AZIZ ZIAR
           </span>
 
           {/* Desktop Navigation */}
