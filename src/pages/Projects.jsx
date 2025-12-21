@@ -2,13 +2,12 @@ function Projects() {
   const projects = [
     {
       title: 'TMS',
-      subtitle: 'Tailor Management System',
       highlights: ['Good example of component reuse and layout structure.'],
       github: 'https://github.com/AzizRahmanZiar/TMS',
+      liveDemo: '#',
     },
     {
       title: 'SaaS Note-taking App',
-      subtitle: 'SaaS_Note-taking_App',
       description:
         'A note-taking interface inspired by SaaS tools. Users can create and view notes in a clean, focused layout.',
       highlights: [
@@ -16,16 +15,27 @@ function Projects() {
         'Uses modern styling for a clean, distraction-free UI.',
       ],
       github: 'https://github.com/AzizRahmanZiar/SaaS_Note-taking_App',
+      liveDemo: '#',
     },
     {
       title: 'School Management System',
-      subtitle: 'School-management-system',
       description:
         'Frontend for a simple school management system with sections for students, classes, and basic records.',
       highlights: [
         'Demonstrates table layouts and simple navigation patterns.',
       ],
       github: 'https://github.com/AzizRahmanZiar/School-management-system',
+      liveDemo: '#',
+    },
+    {
+      title: 'TODO List',
+      description:
+        'Frontend for a simple school management system with sections for students, classes, and basic records.',
+      highlights: [
+        'Demonstrates table layouts and simple navigation patterns.',
+      ],
+      github: 'https://github.com/AzizRahmanZiar/School-management-system',
+      liveDemo: 'todo-list-five-theta-64.vercel.app',
     },
   ];
 
@@ -68,6 +78,14 @@ function Projects() {
                 View on GitHub →
               </a>
             )}
+            <a
+              href={project.liveDemo}
+              target='_blank'
+              rel='noreferrer'
+              className='mt-3 flex text-sm font-semibold text-sky-400 hover:text-sky-300'
+            >
+              Live Demo
+            </a>
             <ul className='mt-4 space-y-2 text-sm text-slate-300'>
               {project.highlights.map((item) => (
                 <li key={item} className='flex items-start gap-2'>
