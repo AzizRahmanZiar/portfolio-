@@ -35,7 +35,7 @@ function Projects() {
         'Demonstrates table layouts and simple navigation patterns.',
       ],
       github: 'https://github.com/AzizRahmanZiar/School-management-system',
-      liveDemo: 'todo-list-five-theta-64.vercel.app',
+      liveDemo: 'https://todo-list-five-theta-64.vercel.app',
     },
   ];
 
