@@ -37,6 +37,16 @@ function Projects() {
       github: 'https://github.com/AzizRahmanZiar/School-management-system',
       liveDemo: 'https://todo-list-five-theta-64.vercel.app',
     },
+    {
+      title: 'Calculator',
+      description:
+        'Frontend for a simple school management system with sections for students, classes, and basic records.',
+      highlights: [
+        'Demonstrates table layouts and simple navigation patterns.',
+      ],
+      github: 'https://github.com/AzizRahmanZiar/School-management-system',
+      liveDemo: 'https://calculator-phi-swart-99.vercel.app',
+    },
   ];
 
   return (
