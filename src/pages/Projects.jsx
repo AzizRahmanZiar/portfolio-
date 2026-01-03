@@ -22,7 +22,7 @@ function Projects() {
     },
     {
       title: 'Calculator',
-      github: 'https//github.com/AzizRahmanZiar/Calculator.git',
+      github: 'https://github.com/AzizRahmanZiar/Calculator.git',
       liveDemo: 'https://calculator-phi-swart-99.vercel.app',
     },
   ];
