@@ -1,6 +1,16 @@
 function Projects() {
   const projects = [
     {
+      title: 'TODO List',
+      github: 'https://github.com/AzizRahmanZiar/TODO-List.git',
+      liveDemo: 'https://todo-list-five-theta-64.vercel.app',
+    },
+    {
+      title: 'Calculator',
+      github: 'https://github.com/AzizRahmanZiar/Calculator.git',
+      liveDemo: 'https://calculator-phi-swart-99.vercel.app',
+    },
+    {
       title: 'TMS',
       github: 'https://github.com/AzizRahmanZiar/TMS',
       liveDemo: '',
@@ -14,16 +24,6 @@ function Projects() {
       title: 'School Management System',
       github: 'https://github.com/AzizRahmanZiar/School-management-system',
       liveDemo: '',
-    },
-    {
-      title: 'TODO List',
-      github: 'https://github.com/AzizRahmanZiar/TODO-List.git',
-      liveDemo: 'https://todo-list-five-theta-64.vercel.app',
-    },
-    {
-      title: 'Calculator',
-      github: 'https://github.com/AzizRahmanZiar/Calculator.git',
-      liveDemo: 'https://calculator-phi-swart-99.vercel.app',
     },
   ];
 
