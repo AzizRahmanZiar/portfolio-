@@ -2,49 +2,27 @@ function Projects() {
   const projects = [
     {
       title: 'TMS',
-      highlights: ['Good example of component reuse and layout structure.'],
       github: 'https://github.com/AzizRahmanZiar/TMS',
-      liveDemo: '#',
+      liveDemo: '',
     },
     {
       title: 'SaaS Note-taking App',
-      description:
-        'A note-taking interface inspired by SaaS tools. Users can create and view notes in a clean, focused layout.',
-      highlights: [
-        'Shows how I structure forms, lists, and detail views.',
-        'Uses modern styling for a clean, distraction-free UI.',
-      ],
       github: 'https://github.com/AzizRahmanZiar/SaaS_Note-taking_App',
-      liveDemo: '#',
+      liveDemo: '',
     },
     {
       title: 'School Management System',
-      description:
-        'Frontend for a simple school management system with sections for students, classes, and basic records.',
-      highlights: [
-        'Demonstrates table layouts and simple navigation patterns.',
-      ],
       github: 'https://github.com/AzizRahmanZiar/School-management-system',
-      liveDemo: '#',
+      liveDemo: '',
     },
     {
       title: 'TODO List',
-      description:
-        'Frontend for a simple school management system with sections for students, classes, and basic records.',
-      highlights: [
-        'Demonstrates table layouts and simple navigation patterns.',
-      ],
-      github: 'https://github.com/AzizRahmanZiar/School-management-system',
+      github: 'https://github.com/AzizRahmanZiar/TODO-List.git',
       liveDemo: 'https://todo-list-five-theta-64.vercel.app',
     },
     {
       title: 'Calculator',
-      description:
-        'Frontend for a simple school management system with sections for students, classes, and basic records.',
-      highlights: [
-        'Demonstrates table layouts and simple navigation patterns.',
-      ],
-      github: 'https://github.com/AzizRahmanZiar/School-management-system',
+      github: 'https//github.com/AzizRahmanZiar/Calculator.git',
       liveDemo: 'https://calculator-phi-swart-99.vercel.app',
     },
   ];
@@ -71,9 +49,6 @@ function Projects() {
             key={project.title}
             className='rounded-3xl border border-slate-800 bg-slate-900/40 p-6 transition hover:border-sky-400/60 hover:bg-slate-900/70'
           >
-            <p className='text-xs uppercase tracking-[0.3em] text-slate-500'>
-              {project.subtitle}
-            </p>
             <h2 className='text-2xl font-semibold text-slate-50'>
               {project.title}
             </h2>
