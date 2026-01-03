@@ -71,14 +71,14 @@ function Projects() {
             >
               Live Demo
             </a>
-            <ul className='mt-4 space-y-2 text-sm text-slate-300'>
+            {/* <ul className='mt-4 space-y-2 text-sm text-slate-300'>
               {project.highlights.map((item) => (
                 <li key={item} className='flex items-start gap-2'>
                   <span className='mt-1 h-1.5 w-1.5 rounded-full bg-sky-400' />
                   <span>{item}</span>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </article>
         ))}
       </div>
