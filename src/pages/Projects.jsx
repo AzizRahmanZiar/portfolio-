@@ -1,6 +1,11 @@
 function Projects() {
   const projects = [
     {
+      title: 'Expense Tracker Charts',
+      github: 'https://github.com/AzizRahmanZiar/Expense-Tracker.git',
+      liveDemo: 'https://expense-tracker-gold-three-65.vercel.app',
+    },
+    {
       title: 'TODO List',
       github: 'https://github.com/AzizRahmanZiar/TODO-List.git',
       liveDemo: 'https://todo-list-five-theta-64.vercel.app',
