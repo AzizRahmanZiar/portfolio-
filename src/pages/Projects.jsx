@@ -1,6 +1,11 @@
 function Projects() {
   const projects = [
     {
+      title: 'Quiz app',
+      github: 'https://github.com/AzizRahmanZiar/Quiz-app-timer-score.git',
+      liveDemo: '',
+    },
+    {
       title: 'Expense Tracker Charts',
       github: 'https://github.com/AzizRahmanZiar/Expense-Tracker.git',
       liveDemo: 'https://expense-tracker-gold-three-65.vercel.app',
@@ -16,13 +21,13 @@ function Projects() {
       liveDemo: 'https://calculator-phi-swart-99.vercel.app',
     },
     {
-      title: 'TMS',
-      github: 'https://github.com/AzizRahmanZiar/TMS',
-      liveDemo: '',
-    },
-    {
       title: 'SaaS Note-taking App',
       github: 'https://github.com/AzizRahmanZiar/SaaS_Note-taking_App',
+      liveDemo: 'https://saa-s-note-taking-app-omega.vercel.app',
+    },
+    {
+      title: 'TMS',
+      github: 'https://github.com/AzizRahmanZiar/TMS',
       liveDemo: '',
     },
     {
