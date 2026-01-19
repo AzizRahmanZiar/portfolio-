@@ -1,29 +1,28 @@
 const services = [
   {
-    title: 'Custom website development',
+    title: 'Full-stack website development',
     description:
-      'Design and build responsive marketing sites, portfolio experiences, and high-converting landing pages.',
+      'Design and build complete websites with React frontend and Laravel backend, including databases and authentication.',
   },
   {
-    title: 'React web apps',
+    title: 'Custom web applications',
     description:
-      'Single-page applications, dashboard interfaces, and component-driven products powered by React.',
+      'Full-stack web apps, dashboards, and admin panels powered by React, Laravel, and REST APIs.',
   },
   {
-    title: 'Figma/XD to production-ready code',
+    title: 'Figma/XD to full-stack implementation',
     description:
-      'Pixel-perfect implementation of your design files using Tailwind CSS, Bootstrap, or custom CSS.',
+      'Convert designs into production-ready React UIs connected to Laravel APIs and databases.',
   },
   {
-    title: 'Website redesign & UI improvements',
+    title: 'Website & system upgrades',
     description:
-      'Modernize legacy layouts, improve UX flows, and refresh visual systems without disrupting existing data.',
+      'Improve UI, refactor backend logic, add new features, and modernize existing PHP or Laravel systems.',
   },
-
   {
-    title: 'Bug fixing & performance tuning',
+    title: 'Bug fixing & performance optimization',
     description:
-      'Audit existing codebases, fix layout issues, improve Core Web Vitals, and clean up CSS debt.',
+      'Fix frontend and backend issues, optimize queries, improve load speed, and clean up legacy code.',
   },
 ];
 
@@ -35,11 +34,12 @@ function Services() {
           Services
         </p>
         <h1 className='text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl'>
-          Simple services that get results.
+          Full-stack services that get results.
         </h1>
         <p className='mx-auto max-w-3xl text-base text-slate-300'>
-          I can design, code, fix, or refresh your website. Every project gets
-          clean code, clear updates, and a friendly process.
+          I handle both frontend and backend development, from UI to APIs and
+          databases. Every project gets clean code, clear updates, and a smooth
+          delivery process.
         </p>
       </header>
 
@@ -59,8 +59,8 @@ function Services() {
 
       <div className='rounded-3xl border border-slate-800 bg-slate-900/30 p-6 text-center'>
         <p className='text-sm text-slate-300'>
-          Need something custom like an Upwork/Fiverr profile, resume? I can
-          prepare deliverables that fit your exact goals.
+          Need something custom like an admin dashboard, API integration, or
+          database-driven system? I can build solutions tailored to your goals.
         </p>
         <a
           href='mailto:azizziar1405@gmail.com'

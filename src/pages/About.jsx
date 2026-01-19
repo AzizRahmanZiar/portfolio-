@@ -2,11 +2,11 @@ import cvFile from '../assets/Aziz Rahman CV.pdf';
 
 function About() {
   const commitments = [
-    'Clean, maintainable code that scales with your product.',
-    'Beautiful UI design that matches your brand and feels modern.',
-    'Smooth user experiences with performance best practices.',
-    'Responsive layouts that look perfect on phones, tablets, and desktops.',
-    'Clear, reliable communication and on-time delivery.',
+    'Clean, maintainable frontend and backend code that scales with your product.',
+    'Well-structured APIs and databases built with Laravel best practices.',
+    'Modern UI design combined with solid backend logic.',
+    'Responsive, secure, and performant web applications.',
+    'Clear communication, regular updates, and on-time delivery.',
   ];
 
   return (
@@ -15,16 +15,19 @@ function About() {
         <h1 className='text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl'>
           About Aziz Ziar
         </h1>
+
         <p className='text-base text-slate-300 leading-relaxed'>
-          I build user-friendly websites with React, Tailwind CSS. As a beginner
-          developer growing on Fiverr and remote platforms, I focus on clean
-          layouts, readable code, and smooth flows that help people trust your
-          brand.
+          I build complete web applications using React, Tailwind CSS, and
+          Laravel. As a growing full-stack developer working remotely, I focus
+          on clean architecture, readable code, and reliable systems that help
+          businesses run smoothly online.
         </p>
+
         <p className='text-base text-slate-300 leading-relaxed'>
-          I can start from your idea, Figma design, or simple checklist. We plan
-          the layout together, I code it step by step, send updates, and then we
-          ship when you are happy.
+          Whether you have an idea, Figma design, or a simple feature list, I
+          can handle both frontend and backend development. We plan the
+          structure together, I build it step by step, share progress, and
+          deliver when everything works as expected.
         </p>
       </header>
 
@@ -35,11 +38,11 @@ function About() {
               Profile
             </h2>
             <p className='text-sm text-slate-300'>
-              I am Aziz Ziar, a frontend web developer who uses HTML, CSS,
-              JavaScript, React, and Tailwind CSS. I build modern, responsive
-              websites with a focus on clean UI, smooth performance, and easy
-              navigation. I enjoy turning ideas into working products and
-              helping clients grow online.
+              I am Aziz Ziar, a full-stack web developer working with React on
+              the frontend and Laravel on the backend. I build responsive user
+              interfaces, REST APIs, authentication systems, and database-driven
+              applications. I enjoy turning ideas into reliable products and
+              helping clients grow with solid web solutions.
             </p>
           </div>
 
@@ -62,6 +65,7 @@ function About() {
           <h2 className='text-sm font-semibold uppercase tracking-[0.3em] text-slate-400'>
             Fast facts
           </h2>
+
           <dl className='space-y-4 text-sm text-slate-300'>
             <div>
               <dt className='text-xs uppercase tracking-[0.3em] text-slate-500'>
@@ -69,12 +73,14 @@ function About() {
               </dt>
               <dd className='text-base text-slate-50'>Afghanistan · Remote</dd>
             </div>
+
             <div>
               <dt className='text-xs uppercase tracking-[0.3em] text-slate-500'>
                 Availability
               </dt>
-              <dd>Open to freelance, contract, and remote roles.</dd>
+              <dd>Open to freelance, contract, and remote full-stack roles.</dd>
             </div>
+
             <div>
               <dt className='text-xs uppercase tracking-[0.3em] text-slate-500'>
                 Resume

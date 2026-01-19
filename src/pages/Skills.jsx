@@ -9,17 +9,22 @@ function Skills() {
       ],
     },
     {
-      title: 'Frameworks & libraries',
+      title: 'Backend development',
       skills: [
-        'React.js with hooks and routing',
-        'Tailwind CSS, Bootstrap, custom component systems',
+        'PHP fundamentals and modern PHP practices',
+        'Laravel framework, MVC architecture',
+        'REST APIs, CRUD operations, authentication',
+        'MySQL database design and relationships',
       ],
     },
     {
-      title: 'Tools & workflow',
+      title: 'Frameworks, tools & workflow',
       skills: [
+        'React.js with hooks and routing',
+        'Tailwind CSS, Bootstrap, custom component systems',
+        'Laravel APIs connected to React frontends',
         'Git & GitHub, npm / yarn',
-        'Async data fetching',
+        'Async data fetching, API integration',
         'VS Code, Figma to code handoff, Notion docs',
       ],
     },
@@ -32,11 +37,11 @@ function Skills() {
           Skills & tools
         </p>
         <h1 className='text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl'>
-          Everything you need for a solid frontend.
+          Everything you need for a solid full-stack application.
         </h1>
         <p className='mx-auto max-w-3xl text-base text-slate-300'>
-          I focus on clean layouts, fast code, and simple workflows that keep
-          projects moving without stress.
+          I combine clean frontend interfaces with reliable backend logic to
+          build complete, scalable web applications.
         </p>
       </header>
 

@@ -6,11 +6,11 @@ function Contact() {
           Availability
         </p>
         <h1 className='text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl'>
-          New projects, collaborations, and interesting conversations.
+          Full-stack projects, collaborations, and long-term work.
         </h1>
         <p className='max-w-3xl text-base text-slate-300'>
-          Tell me about your roadmap, timelines, and success metrics—I’ll share
-          how I can help.
+          Share your idea, system requirements, or technical goals and I’ll
+          explain how I can help from frontend to backend.
         </p>
       </header>
 
@@ -19,6 +19,7 @@ function Contact() {
           <h2 className='text-sm font-semibold uppercase tracking-[0.3em] text-slate-400'>
             Quick links
           </h2>
+
           <div className='space-y-4 text-sm text-slate-200'>
             <p>
               <span className='font-medium text-slate-100'>Email</span>
@@ -30,6 +31,7 @@ function Contact() {
                 azizziar1405@gmail.com
               </a>
             </p>
+
             <p>
               <span className='font-medium text-slate-100'>Fiverr</span>
               <br />
@@ -42,16 +44,15 @@ function Contact() {
                 fiverr.com/azizziar
               </a>
             </p>
+
             <p className='flex flex-col'>
               <span className='font-medium text-slate-100'>Phone</span>
-
               <a
                 href='tel:+93702492682'
                 className='text-sky-400 hover:underline'
               >
                 +93 702 492 682
               </a>
-
               <a
                 href='tel:+93747214110'
                 className='text-sky-400 hover:underline'
@@ -62,7 +63,6 @@ function Contact() {
 
             <p className='flex flex-col'>
               <span className='font-medium text-slate-100'>Social</span>
-
               <a
                 href='https://github.com/AzizRahmanZiar'
                 className='text-sky-400 hover:underline'
@@ -87,21 +87,24 @@ function Contact() {
               Typical engagement
             </p>
             <ul className='mt-3 space-y-3 text-sm text-slate-300'>
-              <li>• 4–12 week sprint-based collaborations</li>
-              <li>• Hands-on with design, build, QA, and docs</li>
-              <li>• Weekly async updates + milestone demos</li>
+              <li>• 4–12 week full-stack development cycles</li>
+              <li>• Frontend, backend, database, and testing</li>
+              <li>• Weekly updates and milestone demos</li>
             </ul>
           </div>
         </div>
+
         <div className='space-y-4 rounded-3xl border border-slate-800 bg-slate-900/40 p-6'>
           <h2 className='text-sm font-semibold uppercase tracking-[0.3em] text-slate-400'>
             Prefer email or WhatsApp
           </h2>
+
           <p className='text-sm text-slate-300'>
-            This is a frontend-only portfolio, so the quickest way to reach me
-            is directly by email or WhatsApp. Share a short brief, link, or
-            voice note and I’ll reply within 12 hours.
+            This portfolio showcases my frontend work, while my backend systems
+            run on Laravel and PHP. The fastest way to reach me is by email or
+            WhatsApp. Share a short brief and I’ll reply within 12 hours.
           </p>
+
           <div className='flex flex-wrap gap-3'>
             <a
               href='mailto:azizziar1405@gmail.com'
@@ -118,6 +121,7 @@ function Contact() {
               Fiverr message
             </a>
           </div>
+
           <div className='rounded-2xl border border-slate-800 bg-slate-950/40 p-4 text-sm text-slate-300'>
             <p className='font-semibold text-slate-100'>WhatsApp</p>
             <p>+93 702 492 682</p>
